@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/costomStyle.css" />
+
+    <title>landing page</title>
+  </head>
+
+  <body class="">
+    <!-- header  -->
+    <header class="">
+      <div
+        class="hidden lg:block bg-fixed bg-gradient-to-r from-gray-800 to-pink-500 h-16 w-full py-2"
+      >
+        <!-- global container -->
+        <div
+          class="max-w-5xl mx-auto flex justify-between items-center text-white"
+        >
+          <div class="flex space-x-4 items-center">
+            <a href="#"
+              ><img src="./icons/icon-facebook.svg" class="w-4 h-4" alt=""
+            /></a>
+            <a href="#" class=""
+              ><img src="./icons/icon-instagram.svg" class="w-4 h-4" alt=""
+            /></a>
+            <a href="#" class=""
+              ><img src="./icons/icon-twitter.svg" class="w-4 h-4" alt=""
+            /></a>
+            <a href="#" class=""
+              ><img src="./icons/icon-pinterest.svg" class="w-4 h-4" alt=""
+            /></a>
+          </div>
+
+          <div class="flex space-x-4">
+            <span class="border-r-2 px-2 hover:cursor-pointer"
+              >093 787 869 429</span
+            >
+            <span class="hover:cursor-pointer">landinPage2002g@gmail.com</span>
+          </div>
+
+          <div class="">
+            <button
+              class="uppercase border border-white p-2 rounded-full text-sm font-semibold hover:outline transition duration-500"
+            >
+              buy ticket
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-5xl mx-auto hidden lg:block">
+        <nav class="flex items-center justify-between">
+          <!-- logo -->
+          <span class="uppercase font-sans font-bold text-2xl"
+            >landing page</span
+          >
+          <!-- navbar -->
+          <div class="flex space-x-4 font-semibold">
+            <div class="flex items-center space-x-4 uppercase text-sm">
+              <a href="#" class="hover:text-orange-500">home</a>
+              <a href="#features" class="hover:text-orange-500">features</a>
+              <a href="#about" class="hover:text-orange-500">about</a>
+              <a href="#offer" class="hover:text-orange-500">our offer</a>
+             
+            </div>
+            <a href="#servece" class="bg-orange-600 text-white py-4 px-2"
+              >services</a
+            >
+          </div>
+
+          <!-- search icon  -->
+
+          <a href="#" class="bg-gray-800 text-white py-4 px-2"
+            ><img src="./icons/icon-pinterest.svg" alt=""
+          /></a>
+        </nav>
+      </div>
+
+    <!-- mobile nav button   -->
+
+
+    </header>
+
+    <!-- mobile nav -->
+   
+
+    <nav
+    id="mobileNav"
+      class="lg:hidden hidden w-full mx-auto bg-transparent backdrop-blur-[20px] shadow-xl px-5 py-10 rounded-sm absolute z-20 top-0 left-0 right-0 h-[400px]"
+    >
+            <div id="close" class="flex items-center justify-end  mb-6"> <a href="#" class="text-3xl text-white rotate-45 ">+</a></div>
+
+ 
+     <div class="flex flex-col space-y-4  text-white">
+      <a href="#" class="hover:text-orange-500 border-b">home</a>
+      <a href="#features" class="hover:text-orange-500 border-b">features</a>
+      <a href="#about" class="hover:text-orange-500 border-b">about</a>
+      
+      <a href="#offer" class="hover:text-orange-500 border-b">our offer</a>
+
+    </div>
+   
+     </div>
+    </nav>
+    <!-- hero secton -->
+    <section
+      class="bg-fixed bg-no-repeat bg-cover bg-center relative"
+      style="background-image: url(./icons/img-desktop/image-hero.jpg)"
+    >
+    <!-- FIXME mobile nav -->
+              <div id="menue" class="lg:hidden flex justify-end items-center p-2 "><img src="./icons/menu-outline.svg" class=" w-6 h-6 bg-gradient-to-r from-gray-200 to-pink-300 rounded-full hover:cursor-pointer " alt=""></div>
+
+      <div class="max-w-5xl mx-auto flex flex-col space-y-6 relative">
+        <!-- line -->
+        <div
+          class="hidden md:block absolute left-5 md:left-0 w-[2px] h-60 top-24 bg-gradient-to-b from-orange-100 to-pink-200"
+        ></div>
+
+        <!-- hero section contents -->
+        <div class="text-white px-4 py-4 lg:px-10 lg:py-20 space-y-4 container">
+          <!-- <h1 class="text-lg md:text-xl uppercase">we are creative</h1> -->
+          <h2 class="text-2xl md:text-3xl lg:text-5xl uppercase">
+            <!-- cinematic innvovations : -->
+            trailblazing techniques in modern filmmaking
+          </h2>
+          <p class="font-thin">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem sunt ipsa ab nulla autem aliquam doloribus eius ad
+            doloremque architecto .
+          </p>
+          <!-- hero buttons  -->
+          <div class="flex flex-col md:flex-row gap-4  md:space-x-6">
+            <button
+              class="bg-gradient-to-r from-gray-500 to-pink-600 px-4 py-2 rounded-full shadow-lg hover:outline"
+            >
+              read more
+            </button>
+            <button
+              class="text-white rounded-full px-10 py-2 border border-white hover:outline transition duration-500"
+            >
+              buy a ticket
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- # feature section -->
+    <section
+      id="features"
+      class="bg-gradient-to-r from-gray-800 to-pink-600 mb-10 py-6"
+    >
+      <div class="max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mx-6">
+          <!-- feature 1 -->
+          <div
+            class="flex flex-col space-y-4 max-w-sm text-white hover:border-[0.2px] border-gray-100 py-6 px-2 transition-all duration-500"
+          >
+            <div class="flex items-center gap-4 text-lg uppercase font-sans">
+              <img
+                src="./icons/icon-pinterest.svg"
+                alt=""
+                srcset=""
+                class="border border-gray-100 rounded-full p-2 mg:p-4"
+              />
+              behind the scenes
+            </div>
+            <p class="text-sm">the craft and technology of filmmaking.</p>
+          </div>
+          <!-- feature 2 -->
+          <div
+            class="flex flex-col space-y-4 max-w-sm text-white hover:border border-gray-100 py-6 px-2 transition-all duration-500"
+          >
+            <div
+              class="flex items-center gap-4 text-lg uppercase font-sans max-w-xs"
+            >
+              <img
+                src="./icons/icon-pinterest.svg"
+                alt=""
+                srcset=""
+                class="border border-gray-100 rounded-full p-2 mg:p-4"
+              />
+
+              from silent reels to blockbuster
+            </div>
+            <p class="text-sm">Hits:a journey through cinematic evolution.</p>
+          </div>
+
+          <!-- feature 3 -->
+          <div
+            class="flex flex-col space-y-4 max-w-sm text-white hover:border border-gray-100 py-6 px-2 transition-all duration-500"
+          >
+            <div class="flex items-center gap-4 text-lg uppercase font-sans">
+              <img
+                src="./icons/icon-pinterest.svg"
+                alt=""
+                srcset=""
+                class="border border-gray-100 rounded-full p-2 mg:p-4"
+              />
+              film as art
+            </div>
+            <p class="text-sm">exploring aesthetics and visual language.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About us section -->
+
+    <section id="about">
+      <!-- container for content and image -->
+      <div
+        class="flex flex-col-reverse items-center space-y-6 md:flex-row md:space-y-0 md:space-x-10 container max-w-5xl mx-auto mb-10"
+      >
+        <!-- contents -->
+        <div class="flex flex-col space-y-6 m-6">
+          <h3 class="uppercase text-2xl md:text-3xl font-sans font-semibold mt-6 md:mt-0">
+            <span class="border-b-2 pm-2 border-pink-600">abou</span>t us
+          </h3>
+
+          <h5 class="text-xl md:text-2xl capitalize">
+            lights,camera,action:a deep dive into the world of cinema
+          </h5>
+          <p class="max-w-lg font-thin">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, ex
+            nam laborum repellat minus quasi beatae? Odio deserunt similique
+            illo, debitis nesciunt cumque, earum unde aliquam dicta, nostrum
+            dolorum ea.lorem adipisicing elit. Quas, ex nam laborum repellat
+            minus quasi beatae? Odio deserunt similique illo, debitis nesciunt
+            cumque, earum unde aliquam dicta, nostrum dolorum ea.lorem
+          </p>
+        </div>
+        <div class="relative w-[50%]">
+          <img src="./icons/img-desktop/image-interactive.jpg" alt="" />
+          <!-- adding costom style to this box -->
+          <div
+            class="box absolute w-[80%] h-20 md:h-40 border-2 border-pink-700 -left-8 -bottom-8 -z-10"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <!-- our services -->
+    <section id="offer" class="bg-pink-50 py-16">
+      <div class="max-w-5xl mx-auto">
+        <h5
+          class="text-2xl font-sans uppercase font-semibold mb-10 mx-4 md:mx-0"
+        >
+          <span
+            class="border-b-2 pm-2 border-orange-600 from-orange-600 to-pink-600"
+            >our</span
+          >
+          offerings
+        </h5>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-white m-6">
+          <!-- 1th offer------------------------------- -->
+          <div class="relative group">
+            <img
+              src="./icons/img-desktop/image-soccer-team.jpg"
+              alt=""
+              class="w-full"
+            />
+
+            <!-- img gradients -->
+            <div
+              class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-900"
+            ></div>
+
+            <!-- item text under image -->
+            <h5
+              class="absolute -bottom-5 -right-2 group-hover:cursor-pointer group-hover:scale-110 uppercase duration-200 w-40 text-sm p-2 bg-gradient-to-r from-gray-800 to-pink-600"
+            >
+              news and events
+            </h5>
+          </div>
+          <!-- 2th offer------------------------------- -->
+          <div class="relative group">
+            <img
+              src="./icons/img-desktop/image-deep-earth.jpg"
+              alt=""
+              class="w-full"
+            />
+
+            <!-- img gradients -->
+            <div
+              class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-900"
+            ></div>
+
+            <!-- item text under image -->
+            <h5
+              class="absolute -bottom-5 -right-2 group-hover:cursor-pointer group-hover:scale-110 uppercase duration-200 w-40 text-sm p-2 bg-gradient-to-r from-gray-800 to-pink-600"
+            >
+              film archive
+            </h5>
+          </div>
+          <!-- 3th offer------------------------------- -->
+          <div class="relative group">
+            <img
+              src="./icons/img-desktop/image-fisheye.jpg"
+              alt=""
+              class="w-full"
+            />
+
+            <!-- img gradients -->
+            <div
+              class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-900"
+            ></div>
+
+            <!-- item text under image -->
+            <h5
+              class="absolute -bottom-5 -right-2 group-hover:cursor-pointer group-hover:scale-110 uppercase duration-200 w-40 text-sm p-2 bg-gradient-to-r from-gray-800 to-pink-600"
+            >
+              latest moveis
+            </h5>
+          </div>
+          <!-- 4th offer------------------------------- -->
+          <div class="relative group">
+            <img
+              src="./icons/img-desktop/image-from-above.jpg"
+              alt=""
+              class="w-full"
+            />
+
+            <!-- img gradients -->
+            <div
+              class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-900"
+            ></div>
+
+            <!-- item text under image -->
+            <h5
+              class="absolute -bottom-5 -right-2 group-hover:cursor-pointer group-hover:scale-110 uppercase duration-200 w-40 text-sm p-2 bg-gradient-to-r from-gray-800 to-pink-600"
+            >
+              popular movies
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
