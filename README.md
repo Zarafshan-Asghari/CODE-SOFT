@@ -1,2 +1,3 @@
-# CODE-SOFT
-internship prjects is in this repo.
+
+the link:
+ https://zarafshan-asghari.github.io/CODE-SOFT/
